@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.about-us {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.about-us p {
+    color: #863C95;
+    font-family: "Poppins";
+    font-weight: bolder;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.about-us h2 {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    width: 40%;
+    margin-top: -15px;
+}
+.flex-group {
+    display: flex;
+    
+}
+.body {
+    display: flex;
+    flex-direction: column;
+}
+.body p {
+    color: black;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+}
+.flex-group img {
+    width: 50vw;
+    margin-right: 20px;
+}
+.bg-group {
+    width: 600px;
+    height: 200px;
+    background-color: #863C95;
+    overflow: hidden;
+    z-index: 1;
+    opacity: 99.999%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.padd {
+    margin-top: -100px;
+}
+.letter {
+
+    margin: 20px 30px;
+
+}
+.letter h3 {
+    font-size: 15px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.letter h2 {
+    font-size: 22px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.letter h4 {
+    font-size: 15px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 540px) {
+    .about-us h2 {
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 22px;
+        width: 70%;
+    
+    }
+    .flex-group {
+        flex-direction: column;
+    }
+    .flex-group img {
+        width: 80vw;
+    }
+    .letter h3 {
+        font-size: 12px;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+    }
+    .letter h2 {
+        font-size: 18px;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+    }
+    .letter h4 {
+        font-size: 12px;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    .bg-group {
+        width: 600px;
+        height: 200px;
+        background-color: #863C95;
+        overflow: hidden;
+        z-index: 0;
+        opacity: 99.999%;
+    }
+    .padd {
+        margin: 0 auto;
+        width: 95%;
+        display: flex;
+        justify-content: center;
+    }
+    .letter h2 {
+        font-size: 18px;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+    }
+    
+}

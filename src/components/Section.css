@@ -1,0 +1,65 @@
+.bgcolorr {
+    background-color: rgb(248, 240, 240);
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bgcolorr img {
+    margin: 20px 0px;
+    width: 45vw;
+}
+.section-body {
+    margin-left: 2%;
+    margin-bottom: 30px;
+}
+.section-body p {
+    color: #863C95;
+    font-family: "Poppins";
+    font-weight: bolder;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.section-body h2 {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    width: 85%;
+    margin-top: -5px;
+}
+.descript {
+    color: black;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+}
+.progress {
+    width: 40vw;
+}
+.recommend {
+    color: black;
+    font-family: "Poppins";
+    font-weight: bolder;
+    font-size: 12px;
+    margin-bottom: -15px;
+}
+
+
+@media screen and (max-width: 540px) {
+    .container {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .bgcolorr img {
+        margin: 20px 0px;
+        width: 80vw;
+    }
+    .progress {
+        width: 75vw;
+    }
+}

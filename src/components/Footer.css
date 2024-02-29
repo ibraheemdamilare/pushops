@@ -1,0 +1,38 @@
+.footer {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.footer img {
+    margin: 20px 0px;
+    width: 45vw;
+}
+button {
+    background-color: #863C95;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 14px;
+    border: 0px; 
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+}
+.footer-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+@media screen and (max-width: 540px) {
+    .footer-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .footer img {
+        margin: 20px 0px;
+        width: 80vw;
+    }
+}
