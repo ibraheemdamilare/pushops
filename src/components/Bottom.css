@@ -62,6 +62,9 @@
 .margin-left {
     margin-left:90vw
 }
+.hashlink {
+    margin-bottom: -10px;
+}
 
 @media screen and (max-width: 540px) {
     .containers {

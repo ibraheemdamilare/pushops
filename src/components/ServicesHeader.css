@@ -1,0 +1,36 @@
+.services-header {
+    color: black;
+}
+.img-bg-new {
+    background-image: url('https://img.freepik.com/free-photo/side-view-men-working-together_23-2149636302.jpg?t=st=1709650065~exp=1709653665~hmac=5f937e1b5fe1392326e123cf5e57c81abe9fe85d85fa9e8d624cbb221c97ded5&w=996');
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: auto;
+}
+.color {
+    background: #863C95;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw; 
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    opacity: 80%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+
+}
+.text {
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 540px) {
+    .services-header {
+        margin-top: 80px;
+    }
+}

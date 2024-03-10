@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './Navbar.css'
 import { FaBars } from 'react-icons/fa'
 import { FaXmark } from 'react-icons/fa6'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     const [links, setLinks] = useState([{title: 'Home', id: 0, isActive: true}, {title: 'About Us', id: 1, isActive: false}, {title: 'Services', id: 2, isActive: false}])
@@ -25,8 +26,8 @@ const Navbar = () => {
                 <div >
                 {showLinks &&  <div className='display'>
                     {links.map((item)=> {
-                    return (<div>
-                        <p className= {`${item.isActive && 'border'}`} onClick={()=> changeStatus(item.title)}>{item.title}</p>
+                    return (<div style={{marginTop: "8px"}}>
+                        <Link to={`${item.title}`} className= {`${item.isActive && 'border'}`} onClick={()=> changeStatus(item.title)}>{item.title}</Link>
                     </div>)
                 })}
                 </div>}
@@ -35,7 +36,7 @@ const Navbar = () => {
                 <div className='display-desktop'>
                 {links.map((item)=> {
                     return (<div>
-                        <p className={item.isActive && 'border'} onClick={()=> changeStatus(item.title)}>{item.title}</p>
+                        <Link to={`${item.title}`} className={item.isActive && 'border'} onClick={()=> changeStatus(item.title)}>{item.title}</Link>
                     </div>)
                 })}
                 </div>

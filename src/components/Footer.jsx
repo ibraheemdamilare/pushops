@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -13,7 +14,7 @@ const Footer = () => {
                 <h5 className='descript'>
                     At <span style={{fontStyle: 'italic'}}>PushOps</span>, we strive to empower individuals and organizations through innovative technology solutions. Our mission is to simplify complexity, enhance efficiency, and foster creativity by delivering cutting-edge software and services that enable our clients to thrive in a rapidly evolving landscape.
                 </h5>
-                <button>Read More</button>
+                <Link to={"/Services"}><button>Read More</button></Link>
                 
             </div>
             <img src="https://img.freepik.com/free-photo/male-employee-getting-used-his-new-office-job-along-with-female-colleagues_23-2149034607.jpg?t=st=1709146255~exp=1709149855~hmac=c4d08eb272525da37fbeeb416da5bef39bdfa78df8d76cb53115d0dd5cd4d7a2&w=996" alt="" />

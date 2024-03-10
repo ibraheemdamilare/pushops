@@ -4,7 +4,7 @@ import ProgressBar from './ProgressBar'
 
 const ChooseUs = () => {
   return (
-    <section className="bgcolorr" >
+    <section className="bgcolorr" id='choose'>
         <div className="container">
             <img src="https://img.freepik.com/free-photo/team-workmates-using-laptop-plan-business-project-boardroom-office-colleagues-working-together-company-growth-development-design-marketing-strategy-presentation_482257-37181.jpg?t=st=1709131117~exp=1709134717~hmac=30c16b8a7cdcab4e5ec903239c2f8bb8cde8b1026091ab549ffcc709cf240eb1&w=1060" alt="" />
             <div className="section-body"> 

@@ -22,12 +22,14 @@
 }
 .display-desktop {
     display: flex;
+    margin-top: 25px;
 }
-.display-desktop p {
+.display-desktop a {
     margin-right: 20px;
     cursor: pointer;
     text-align: center;
     margin-top: 25px;
+    text-decoration: none;
 }
 .FaBars {
     color: #863C95;
@@ -60,11 +62,12 @@
         background-color: rgb(255, 255, 255, .8);
         width: 100vw;
     } 
-    .display p {
+    .display a {
         cursor: pointer;
         text-align: center;
         width: 20vw;
         margin-left: 75vw;
+        text-decoration: none;
     }
 
     .FaBars {

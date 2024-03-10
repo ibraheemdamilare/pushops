@@ -4,12 +4,12 @@
     justify-content: center;
 }
 .img-bg {
-    background-image: url('https://img.freepik.com/free-photo/people-taking-part-business-event_23-2149346613.jpg?t=st=1708870903~exp=1708874503~hmac=2ddabc409699259ec768f89ca77f09c790df7e66bf59eceb406722692ddd693f&w=996');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/billionairemindsetjobs.appspot.com/o/people-taking-part-business-event.jpg?alt=media&token=3f4786e6-3b88-4b34-9d52-f91a2a68fe79');
     background-repeat: none;
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     margin: auto;
 }
 .color {
