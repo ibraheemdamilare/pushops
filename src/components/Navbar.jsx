@@ -18,6 +18,10 @@ const Navbar = () => {
             })
         )
     }
+    const handleClick = () => {
+            setShowLinks(!showLinks)
+            changeStatus(item.title)
+    }
   return (
     <div className='navbar'>
         <div className="navbar-container">
@@ -27,7 +31,7 @@ const Navbar = () => {
                 {showLinks &&  <div className='display'>
                     {links.map((item)=> {
                     return (<div style={{marginTop: "8px"}}>
-                        <Link to={`${item.title}`} className= {`${item.isActive && 'border'}`} onClick={()=> changeStatus(item.title)}>{item.title}</Link>
+                        <Link to={`${item.title}`} className= {`${item.isActive && 'border'}`} onClick={handleClick()}>{item.title}</Link>
                     </div>)
                 })}
                 </div>}

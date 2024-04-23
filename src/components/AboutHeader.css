@@ -1,0 +1,34 @@
+
+.about-img-bg-new {
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/billionairemindsetjobs.appspot.com/o/professional-business-team-talking-street.jpg?alt=media&token=7ca78e7a-9ad5-4706-a48b-a1069a82e7b8');
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: auto;
+}
+.about-color {
+    background: #863C95;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw; 
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    opacity: 80%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+
+}
+.text {
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 540px) {
+    .services-header {
+        margin-top: 80px;
+    }
+}

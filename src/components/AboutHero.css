@@ -1,0 +1,55 @@
+.about-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 100px;
+}
+.button {
+    background-color: #863C95;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 14px;
+    border: 0px; 
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button:hover {
+    background-color: #f9d403;
+}
+.about-texting {
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+.about-texting-h2 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn-contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-image {
+    width: 22vw;
+    height: 200px;
+}
+.image-containeer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 540px) {
+    .about-hero {
+        flex-direction: column;
+    }
+    .about-image {
+        width: 50vw;
+        height: 200px;
+    }
+}

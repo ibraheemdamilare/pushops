@@ -42,6 +42,9 @@
     margin-bottom: 10px;
     cursor: pointer;
 }
+.second a {
+    text-decoration: none;
+}
 .third h2 {
     color: white;
     font-family: "Poppins";
@@ -59,8 +62,13 @@
     color: white;
     font-size: 12px;
 }
+.textting {
+    color: white;
+    font-size: 10px;
+}
 .margin-left {
-    margin-left:90vw
+    margin-left:90vw;
+    padding-bottom: 10px;
 }
 .hashlink {
     margin-bottom: -10px;

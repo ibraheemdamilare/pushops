@@ -32,7 +32,7 @@ const Bottom = () => {
                 
             </div>
         </div>
-        <p className='margin-left'><FaCopyright className='copyright' /> <span style={{fontStyle: 'italics', color: 'white', fontSize: '10px', marginBottom: '20px'}}>PushOps 2023</span></p>
+        <p className='margin-left'><FaCopyright className='copyright'/> <span className='textting'>PushOps 2023</span></p>
     </div>
   )
 }
